@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height:60px;
+    border: none;
+    background-color: rgb(207, 121, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    
+}
+.leftheader{
+    margin-left: 5rem;
+    border:none;
+    color: white;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.rightheader{
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin-right: 8rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transform: color 0.1s;
+}
+a:hover{
+    color: rgb(91, 113, 222);
+    text-decoration: underline;
+    font-weight:bolder;
+}
+#email{
+    border-radius: 0.7rem;
+    height: 15px;
+}
+#phone{
+    border-radius: 0.7rem;
+    height: 15px;
+}
+.email{
+    display: flex;
+    gap:0.4rem;
+}
+.phone{
+    display: flex;
+    gap:0.4rem;
+}
+#name{
+    font-size: larger;
+    font-weight: 600;
+}
+.Intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    height: 200px;
+}
+#imagelaptop{
+    width: 300px;        
+    height: 200px;  
+    padding: 1rem; 
+}
+.righttext{
+    width: 500px;
+    color: gray;
+}
+#vani{
+    color: rgb(86, 86, 234);
+    padding-left: 0.5rem;
+}
+.skills{
+    padding: 2rem;
+    padding-left: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    row-gap: 5rem;
+    column-gap: 5rem;
+}
+.Skillbox{
+   border:2px solid gray;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   row-gap: 1rem;
+   width: 180px;
+   padding: 1rem;
+   box-shadow: 0px 0px 10px 3px gray;
+}
+#simg{
+   height: 60px; 
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+h3{
+   padding-left: 3rem; 
+}
+li{
+    padding-left: 4.5rem;
+    padding-bottom: 1rem;
+}
+.Recommendations{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: start;
+    align-items: center;
+    padding-left: 4rem;
+    margin-top: 1.4rem;
+}
+.para{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 1.2rem;
+    font-style: italic;
+    height: 150px;
+    width: 350px;
+}
+.leave{
+    height: 290px;
+    padding-left: 6rem;
+    margin: 2rem;
+}
+.recom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10rem;
+}
+button{
+    background-color: #fff;
+    border: 1px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    margin-left: 10rem;
+    width: 1.5in;
+    font-size: 15px;
+}
+button:hover {
+    background-color: #7600bc;
+    border: 1px solid #7600bc;
+    color: #fff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+#Name{
+    width: 500px;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+}
+#Message{
+    width: 500px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+.popup {
+    width:400px;
+    background-color: #99e2ea;
+    border-radius: 3mm;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: fixed;
+    /* padding: 30px; */
+    visibility: hidden;
+}
+.popup img {
+    height: auto;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    
+  }
+  .popup button {
+    background-color: #fff;
+    border: 1px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 1.3in;
+    font-size: 15px;
+    margin-left: 9rem;
+  }
+  .popup button:hover {
+    background-color: #fff;
+    border: 2px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+  .iconbutton{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #7600bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  
+  

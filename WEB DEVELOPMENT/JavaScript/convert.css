@@ -1,0 +1,110 @@
+body{
+    margin: 10px;
+    background-color: black;
+}
+#home{
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    background-color: #483355;
+}
+header{
+    font-size: 30px;
+    color: rgb(227, 192, 227);
+    float: left;
+    padding-left: 2cm;
+}
+.topdiv{
+    float:right;
+    padding-right: 1cm;
+}
+.topclass{
+    color:rgb(194, 189, 189);
+    background-color: #483355;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+    text-decoration: none;
+}
+.topclass:hover{
+    color: white;
+    font-weight: bolder;
+    background: #382742;
+    text-decoration: underline;
+}
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+figure{
+    float:left;
+    width: 200px;
+    justify-self: auto;
+}
+img{
+    width: 200px;
+}
+figcaption{
+    color:black;
+    font-size: 17px;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+    width: fit-content;
+    border: transparent;
+}
+button:hover{
+    cursor: pointer;
+}
+.b{
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width:600px;
+    height:400px;
+    margin-top:25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+.temparature{
+    border-top-color: green;
+}
+.weight{
+    border-top-color: coral;
+}
+.distance{
+    border-top-color: cyan;
+}
+legend{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.iconbutton{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-color: rgb(225, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:40px;
+    left:0;
+    }
+.iconbutton img {
+    width:30px
+}
+    
+footer {
+    background-color:rgb(240, 234, 245);
+    margin-top: 20px;
+}

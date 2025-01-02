@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+</head>
+<style>
+    #copy{
+        background-color: darkgrey;
+        font-size: 20px;
+        color: aliceblue;
+        text-align: center;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .headerbox{
+        background-color: rgb(144, 144, 190);
+        display: flex;
+        height: 10vh;
+        width: 100vw;
+       
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        
+      
+    }
+    #head1{
+       font-size: 2rem;
+       margin-left: 15px;
+       color: rgb(177, 238, 238);
+       
+       
+        
+    }
+    #head2{
+        display: flex;
+        gap: 25px;
+        font-size: 2rem;
+       margin-right: 15px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(181, 211, 211);
+    }
+
+    .container{
+        display: flex;
+        border: 2px solid rgb(16, 25, 26);
+       
+       
+        
+    }
+    #rightbox{
+        gap: 200px;
+    }
+    #rightbox image:hover{
+       transform: scale(1.5) ;
+    }
+    #int{
+        list-style: none; 
+    }
+    
+    
+</style>
+<body>
+    <header>
+    <div class="headerbox">
+        
+           <p id="head1">Recipe Website</p> 
+           <nav> 
+           <div id="head2">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </div>
+        </nav>
+    </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div id="rightbox">
+            <img src="gulab jamu.png" alt="">
+            <img src="jalebi.png" alt="">
+            </div>
+            <div id="leftbox">
+            <div id="para1">
+            <h2>Ingredients:</h2>
+            <ul id="int">
+                <li>Sugar</li>
+                <li>Instant Powder Mix</li>
+                <li>Milk</li>
+            </ul>
+            <h2>Making Process:</h2>
+            <p>Homemade gulab jamun is usually made up of khoya, a pinch of all-purpose flour/refined wheat flour/ wheat flour (optional), baking powder and clarified butter (ghee); milk kneaded to form a dough, moulded into balls, deep fried and dropped into simmering sugar syrup.</p></div>
+        </div><div id="para">
+            <h2>Ingredients:</h2>
+            <ul id="int">
+                <li>Corn flower</li>
+                <li>Jaggery</li>
+                <li>Oil</li>
+            </ul>
+            <h2>Making Process:</h2>
+            <p>raditionally, the jalebi recipe is made with a batter of all purpose flour, gram flour (besan), baking soda and water that is fermented for several hours. The fermented batter is then poured in concentric circles in hot oil and deep-fried. These fried spirals are then soaked in a flavored sugar syrup and served.</p>
+        </div>
+        </div>
+
+    </main>
+    <footer id="copy">
+        <p>&copy 2024 Product Catalog.All rights reserved</p>
+    </footer>
+</body>
+</html>

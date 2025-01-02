@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(204, 204, 186);
+        height: 100vh;
+        width: 100vw;
+    }
+    .box{
+        height: 90vh;
+        width: 30vw;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2em;
+        gap: 20px;
+
+    }
+    #image{
+        height: 50%;
+        width: 100%;
+       
+        border-top-left-radius: 2em;
+        border-top-right-radius: 2em;
+    }
+    #Order{
+        text-align: center;
+    }
+    #para{
+        
+        margin-left: 3rem;
+        margin-right: 3em;
+    }
+    .annual{
+        height: 60px;
+        width: 15rem;
+        background-color: rgb(184, 208, 208);
+        display: flex;
+        gap: 20px;
+        border-radius: 10px;
+        
+        
+    }
+    #arc{
+        margin: auto;
+    }
+    #button{
+        height: 60px;
+        width: 15rem;
+        background-color: rgb(22, 22, 79);
+        color: aliceblue;
+        gap: 10rem;
+        border-radius: 10px;
+    }
+    #anc{
+        text-decoration: none;
+        color: rgb(186, 138, 138);
+        font-size:1.5em ;
+    }
+
+</style>
+<body>
+<div class="container">
+    <div class="box">
+        <img id="image" src="technology.png" alt="">
+        <h2 id="Order">Order Summary</h2>
+        <p id="para"> The order document accepted by Service Provider which sets out the Products and Services purchased, certain Product features, Quota and fees payable, each representing an individual purchase which is governed by this Agreement.</p>
+        <div class="annual">
+            <p>Annual Plan $99.9/Year </p>
+            <a id="arc" href="#">Change</a>
+        </div>
+        <button id="button">Proceed to Payment</button>
+        <nav>
+        <a id= "anc" href="#">Cancel Order</a>
+    </nav>
+    </div>
+
+</div>
+    
+</body>
+</html>

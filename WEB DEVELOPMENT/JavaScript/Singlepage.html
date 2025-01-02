@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Portfolio</title>
+    <link rel="stylesheet" href="Singlepage.css">
+    <script src="Singlepage.js"></script>
+</head>
+<body>
+    <header>
+        <div class="home" id="home">
+            <div class="leftheader">
+                <p id="name">Vanitha sree</p>
+                <div class="email">
+                    <img id ="email" src="./email.png" alt="">
+                    <p>vanithasree2094@gmail.com</p>
+                </div>
+                <div class="phone">
+                    <img id="phone" src="./phone.png" alt="">
+                    <p>+1 (790)-523-5481</p>
+                </div>
+            </div>   
+        
+            <div class="rightheader">
+                <a href="#About">About Me</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Project">Projects</a>
+                <a href="#Recommendations">Recommendations</a>
+            </div>
+        </div>
+    </header>
+    <div class="Intro">
+        <div class="leftimage">
+           <img id="imagelaptop" src="./Laptop.png" alt="Desktop">
+        </div>
+        <div class="righttext">
+            <h1 id="vani">Hi, I'm Vanitha Sree!</h1>
+            <p>I am a Full Stack Developer with 2 years of experience in both application and presentation layers. I have worked on applications and microservices deployed on IBM Cloud. I am an avid user of IBM Watson Servies and have worked on Watson Assistant, NLU, Sentimental analyzer to name a few.</p>
+        </div>
+    </div>
+    <h1 id="vani">Skills</h1>
+        <div class="skills">
+            <div class="Skillbox">
+                <img id="simg" src="./Html.png" alt="Hypertext">
+                <p>HTML</p>
+                <P>2 Years Experience</P>
+            </div>
+            <div class="Skillbox">
+                <img id="simg" src="./js.png" alt="JS">
+                <p>JavaScript</p>
+                <P>1.5 Years Experience</P>
+            </div>
+            <div class="Skillbox">
+                <img id="simg" src="./Java.png" alt="Hypertext">
+                <p>Java</p>
+                <P>.5 Years Experience</P>
+            </div>
+            <div class="Skillbox">
+                <img id="simg" src="./react.png" alt="Hypertext">
+                <p>React</p>
+                <P>1 Years Experience</P>
+            </div>
+            <div class="Skillbox">
+                <img id="simg" src="./node.png" alt="Hypertext">
+                <p>Node.js</p>
+                <P>1 Years Experience</P>
+            </div>
+            <div class="Skillbox">
+                <img id="simg" src="./css.png" alt="Hypertext">
+                <p>CSS</p>
+                <P>2 Years Experience</P>
+            </div>
+        </div>
+    <h1 id="vani">Projects</h1>  
+    <div class="project">
+        <h3>Chatbot</h3>
+        <li>Developed a secure website integrated with chatbox for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant.</li>
+        <h3>Sentiment Analyzer</h3>
+        <li>Developed and deployed sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU.</li>
+        <h3>Fashion Website</h3>
+        <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway.</li>
+    </div>
+    <h1 id="vani">Recommendations</h1>
+    <div class="Recommendations" id="Recommendations">
+        <div class="para"><p>" Sree is a very quick learner and quickly grasps key concepts of Web developement. She got a great attitude & she is an excellent team player. She has a curious mind and asks the right question. She takes initiative within a team and has potentials to lead the team. "</p></div>
+        <div class="para"><p>" Working with Sree has been an awesome experience. She is highly knowledgable and always goes the extra step to make sure everything is right. For any future projects that need her expertise I would definitely want to work with her again. "</p></div>
+        <div class="para"><p>" I had worked along with Sree during the initial phase of our venture which needed Web development. She is a committed resource who has in depth knowledge about the domain. She will be an asset for any organisation! "</p></div>
+    </div>
+    <div class="leave">
+        <div class="recom">
+            <h1>Leave a Recommendation</h1>
+            <input type="text" name="Name" id="Name" placeholder="Name(optional)" autocomplete="name"></br>
+            <textarea name="message" id="Message" placeholder="Message" autocomplete="message"></textarea></br>
+            <button type="button" onclick = "addRecommendation()">Submit</button>
+        </div>
+    </div>
+    <div class="iconbutton">
+        <a href="#home">
+            <!-- Home icon SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        </a>
+    </div>
+    <div class="popup" id="popup">
+        <img src="./checkline.svg"/>
+        <h3>Thanks for leaving a recommendation!</h3>
+        <button onclick="showPopup()">OK</button>
+    </div>
+  
+</body>
+</html>
